@@ -1,0 +1,426 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .nossos-area h1 {
+        left: 5%;
+    }
+
+}
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1350px) {
+    .hero__content > i {
+        max-width: 930px;
+    }
+
+.v2 .hero__content > i {
+    right: 0;
+    top: 0;
+}
+    
+    .hero__text h1 {
+        margin: 0;
+    }
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .hero__content > i {
+        max-width: 770px;
+        pointer-events: none;
+    }
+
+.v2 .hero__content > i {
+    right: 0;
+    top: 0;
+}
+    
+    .hero__text h1 {
+        margin: 0;
+        font-size: 40px;
+    }
+    .container {
+        max-width: 980px;
+    }
+    
+    .hero__text {
+        padding-top: 100px;
+    }
+    
+    .hero-area {
+        height: 771px;
+    }
+
+.hero-area.v2 {
+    padding-top: 140px;
+}
+    .nossos__wrp ul li a {
+        display: block;
+        max-width: 200px;
+    }
+
+.nossos__wrp ul li a.svc-8 {
+    max-width: 100px;
+}
+.nossos-area h1 {
+    left: 4%;
+    font-size: 50px;
+}
+
+.accordion-button {
+    font-size: 20px;
+}
+
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    :root{
+      
+        --f18 : 16px;
+        --f20 : 18px;
+        --f22 : 20px;
+        --f24 : 22px;
+        --f28 : 24px;
+        --f30 : 26px;
+        --f32 : 28px;
+        --f36 : 30px;
+        --f40 : 32px;
+        --f48 : 36px;
+      
+      }
+    .hero__content > i {
+        max-width: 770px;
+        pointer-events: none;
+        display: none;
+    }
+    
+    .hero__text h1 {
+        margin: 0;
+        font-size: 40px;
+        margin: auto;
+    }
+
+.v2 .hero__text h1 {
+    margin: auto;
+}
+    .container {
+        max-width: 980px;
+    }
+    
+    .hero__text {
+        padding-top: 0;
+        text-align: center;
+    }
+    
+    .hero-area {
+        height: auto;
+        padding-bottom: 50px;
+        padding-top: 150px;
+    }
+    .nossos__wrp ul li a {
+        display: block;
+        max-width: 150px;
+    }
+
+.nossos__wrp ul li a.svc-8 {
+    max-width: 75px;
+}
+.nossos-area h1 {
+    left: 4%;
+    font-size: 45px;
+    bottom: 56px;
+}
+
+.accordion-button {
+    font-size: 20px;
+}
+.hero__btm {
+    margin: auto;
+    width: max-content;
+    text-align: center;
+}
+
+.hero__btm a {
+    margin: auto;
+}
+
+.avater__blk {
+    margin-top: 25px;
+}
+
+.hero-mobile {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.svc__img {
+    max-width: 500px;
+    margin: auto;
+}
+
+.sv2 .svc__img {
+    text-align: center;
+}
+
+.sv2 .flex-lg-row .svc__img {
+    text-align: center;
+}
+
+.svc__text {
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.sv2 .svc__text.m__auto {
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.sv2 .svc__text {
+    text-align: center;
+}
+
+.sv2 .svc__text h2 {
+    margin-inline: auto;
+}
+.faq__content {
+    max-width: 500px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.faq__content a {
+    margin: auto;
+}
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    :root{
+      --f18 : 16px;
+      --f20: 16px;
+      --f22: 19px;
+      --f24: 20px;
+      --f28: 22px;
+      --f30: 24px;
+      --f32: 26px;
+      --f36: 28px;
+      --f40: 30px;
+      --f48: 32px;
+      }
+    .hero__content > i {
+        max-width: 770px;
+        pointer-events: none;
+        display: none;
+    }
+    
+    .hero__text h1 {
+        margin: 0;
+        margin: auto;
+    }
+
+.v2 .hero__text h1 {
+    margin: auto;
+}
+    .container {
+        max-width: 980px;
+    }
+    
+    .hero__text {
+        padding-top: 0;
+        text-align: center;
+    }
+    
+    .hero-area {
+        height: auto;
+        padding-bottom: 50px;
+        padding-top: 110px;
+    }
+    .nossos__wrp ul li a {
+        display: block;
+    }
+
+.nossos__wrp ul li a.svc-8 {display: none;}
+.nossos-area h1 {
+    left: 4%;
+    font-size: 40px;
+    bottom: 56px;
+    position: unset;
+    text-align: center;
+    margin: auto;
+    padding: 30px 0;
+}
+
+.accordion-button {
+    font-size: 18px;
+}
+.hero__btm {
+    margin: auto;
+    width: max-content;
+    text-align: center;
+}
+
+.hero__btm a {
+    margin: auto;
+}
+
+.thm_btn {
+    padding: 12px 30px;
+}
+
+.avater__blk {
+    margin-top: 25px;
+}
+
+.hero-mobile {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.svc__img {
+    max-width: 500px;
+    margin: auto;
+}
+
+.svc__text {
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.sv2 .svc__text h2 {
+    font-size: 24px;
+}
+
+.sv2 .svc__text.m__auto {
+    margin-bottom: 40px;
+}
+.faq__content {
+    max-width: 500px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.faq__content a {
+    margin: auto;
+}
+.header-btn button {
+    padding: 10px 20px;
+    font-size: 12px;
+}
+
+.header-btn {
+    gap: 14px;
+}
+
+.header-btn a {
+    font-size: 14px;
+}
+
+.logo-area {
+    max-width: 110px;
+}
+
+.hero__text p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.v2 .hero__text p br {
+    display: none;
+}
+
+.mt_100 {
+    margin-top: 50px;
+}
+
+.sec__title p br {
+    display: none;
+}
+
+.nossos__wrp ul {
+    flex-wrap: wrap;
+}
+
+.nossos__wrp ul li {
+    width: 50%;
+}
+
+.nossos__wrp {
+    margin-left: -25px;
+    max-width: 550px;
+}
+
+.Tutors__slider .owl-nav {
+    position: unset;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.timeline__wrp ul {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.timeline__wrp ul li i {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.timeline__wrp ul li {
+    position: relative;
+    padding-left: 100px;
+}
+
+.timeline__wrp ul:after {
+    width: 1px;
+    left: 34px;
+    top: 0;
+    height: calc(100% - 90px);
+    border-left: 1px dashed #232323;
+}
+
+.timeline__wrp ul li p {
+    max-width: 260px;
+}
+
+.mb_150 {
+    margin-bottom: 60px;
+}
+
+.newLatter__wrp {
+    padding: 0;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 30px;
+}
+
+.newLatter__wrp a {
+    margin: auto;
+}
+
+.footer__btm {
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+.nossos__wrp{
+    margin: auto;
+}
+}
